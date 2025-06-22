@@ -6,6 +6,3 @@ typedef struct tensor{
     int **view5;
     int **view6;
 };
-
-
-typedef struct 
