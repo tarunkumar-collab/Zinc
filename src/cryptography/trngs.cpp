@@ -1,7 +1,3 @@
-#include <iostream>
-
-using namespace std;
-
 class trng{
     public:
         __uint128_t ring_oscillator_with_shifting(__uint128_t initial_value, __uint128_t number_of_rounds, __uint128_t number_of_shift_registers, __uint128_t number_of_xor_gates)
@@ -27,11 +23,3 @@ class trng{
             return random_number;
         }
 };
-
-int main()
-{
-    trng t;
-    __uint128_t random_number = t.ring_oscillator_with_shifting(0x123456789,50,90,80);
-    printf("%u",random_number);
-    cout << endl;
-}

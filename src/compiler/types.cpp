@@ -1,12 +1,3 @@
-typedef struct display_region{
-    int **view1;
-    int **view2;
-    int **view3;
-    int **view4;
-    int **view5;
-    int **view6;
-};
-
 typedef struct secrets{
     char *encrypted_message;
     char *keystream;
