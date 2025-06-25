@@ -11,4 +11,6 @@ class bounding_box{
 
             return display_area;
         }
+
+        
 };
